@@ -1,3 +1,4 @@
+# Please use this command for run the code -pytest -q -v -s test_AllBrowerWithParallelExecution.py  --cmdopt=chrome 
 from selenium import webdriver
 def test_allBrowser(cmdopt):
     #browserName = input("enter the name :")
